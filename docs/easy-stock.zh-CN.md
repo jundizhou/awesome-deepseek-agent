@@ -15,9 +15,9 @@ easy-stock 是一套本地优先的 A 股 AI 智能投研桌面工作台，把�
 
 打开 **系统设置 → Hermes 模型运行时**，点击 **新增配置**：
 
-1. 在服务商列表中选择 **DeepSeek**，API 地址自动填入 `https://api.deepseek.com`，接口协议为 `Chat Completions`。
+1. 在服务商列表中选择 **DeepSeek**，API 地址自动填入 `https://api.deepseek.com`，接口协议为 `Chat Completions`，默认模型为 `deepseek-v4-pro`。
 2. 在 [DeepSeek 开放平台](https://platform.deepseek.com/api_keys) 创建 API Key 并粘贴到密钥输入框。
-3. 点击 **获取模型**，选择 **`deepseek-v4-pro`**（推理最强）或 **`deepseek-v4-flash`**（更快更便宜）；如果列表拉取失败，可选择 **手动输入其他模型…** 直接填入模型名。
+3. 如需切换模型，点击 **获取模型**，选择 **`deepseek-v4-pro`**（推理最强）或 **`deepseek-v4-flash`**（更快更便宜）；如果列表拉取失败，可选择 **手动输入其他模型…** 直接填入模型名。
 4. 点击 **保存并测试连接**，看到 **「Hermes 模型连接可用」** 即配置成功。
 
 说明：

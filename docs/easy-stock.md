@@ -17,9 +17,9 @@ Download the installer for your platform from the [releases page](https://github
 
 Open **系统设置 → Hermes 模型运行时** (System Settings → Hermes Model Runtime) and click **新增配置** (Add Configuration):
 
-1. Select **DeepSeek** from the provider list. The base URL is preset to `https://api.deepseek.com` and the protocol to `Chat Completions`.
+1. Select **DeepSeek** from the provider list. The base URL is preset to `https://api.deepseek.com`, the protocol to `Chat Completions`, and the default model to `deepseek-v4-pro`.
 2. Paste your [DeepSeek API Key](https://platform.deepseek.com/api_keys) into the API Key field.
-3. Click **获取模型** (Fetch Models) and pick **`deepseek-v4-pro`** for the strongest reasoning, or **`deepseek-v4-flash`** for faster, cheaper runs. If the list is unavailable, choose **手动输入其他模型…** (enter model manually) and type the model name.
+3. To switch models, click **获取模型** (Fetch Models) and pick **`deepseek-v4-pro`** for the strongest reasoning, or **`deepseek-v4-flash`** for faster, cheaper runs. If the list is unavailable, choose **手动输入其他模型…** (enter model manually) and type the model name.
 4. Click **保存并测试连接** (Save and Test Connection). Seeing **「Hermes 模型连接可用」** (Hermes model connection available) means the configuration works.
 
 Notes:
